@@ -6,7 +6,6 @@ const Module = ({ title, url, color, icon }) => {
   return (
     <Link to={url}>
       <Card
-        href="#"
         className={`w-full ${color} flex flex-col items-center gap-2 justify-center h-[300px]`}
       >
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white flex items-center justify-center">
